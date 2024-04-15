@@ -1,0 +1,27 @@
+name: TreeListController
+
+options:
+  bundleIdPrefix: dev.jano.treeListController
+  usesTabs: false
+  indentWidth: 4
+  tabWidth: 4
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: 14.0
+
+settings:
+    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: YES
+    DEVELOPMENT_TEAM: PPSF6CNP8Q
+
+targets:
+
+  TreeListController:
+    type: application
+    platform: iOS
+    settings:
+      CURRENT_PROJECT_VERSION: 1
+      MARKETING_VERSION: 1.0.0
+      INFOPLIST_FILE: sources/main/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: dev.jano.treeListController
+      PRODUCT_NAME: TreeListController
+    sources: sources/main
